@@ -7,8 +7,11 @@
 html {
   font-size: 62.5%;
 }
-body {
+.main-body {
   font-size: 1.6rem;
+}
+.locked {
+  overflow: hidden;
 }
 li {
   list-style: none;
@@ -73,6 +76,13 @@ li {
 }
 
 @media (max-width: 950px) {
+  .nav {
+    background-color: #000;
+    height: 9vh;
+
+    z-index: 1000;
+  }
+
   .nav-toggle {
     display: block;
   }
@@ -98,7 +108,10 @@ li {
 
     transform: translateX(100%);
     transition: all 0.5s ease-in;
+
+    z-index: 100;
   }
+
   .login-signup {
     display: flex;
     flex-direction: column;

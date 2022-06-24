@@ -1,28 +1,33 @@
 .open-new {
   position: relative;
   top: -8vh;
+
   background-color: #a8ff35;
+  text-align: center;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-align: center;
 }
 .open-new h2 {
   font-size: 7.2rem;
   font-weight: bold;
+
   margin-bottom: 6rem;
   margin-top: 14rem;
 }
 .open-new p {
   font-size: 1.8rem;
   line-height: 150%;
+
   margin-bottom: 14rem;
 }
 .open-new .find-image {
   background-color: #fff;
-  padding: 6rem 8rem;
   border-radius: 1.6rem;
+
+  padding: 6rem 8rem;
   margin-bottom: 6rem;
 }
 .open-new .find-image img {
