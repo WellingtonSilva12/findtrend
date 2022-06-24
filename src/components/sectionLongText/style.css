@@ -12,3 +12,9 @@ h2 {
 span {
   color: #adadad;
 }
+@media (max-width: 768px) {
+  h2 {
+    font-size: 3.2rem;
+    padding-inline: 2.4rem;
+  }
+}

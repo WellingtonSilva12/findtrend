@@ -12,7 +12,7 @@
   height: 108vh;
   width: 100%;
 
-  background-image: url("../../assets/img/Bg-hero.png");
+  background-image: url('../../assets/img/Bg-hero.png');
   background-size: cover;
 
   z-index: -1;
@@ -95,4 +95,52 @@
   left: -150px;
 
   transform: rotate(4deg);
+}
+
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 3.2rem;
+    padding-inline: 2.4rem;
+  }
+  .hero p {
+    font-size: 1.4rem;
+    padding-inline: 2.4rem;
+  }
+  .hero .button-hero {
+    left: 0;
+  }
+  .hero .button-hero svg {
+    display: none;
+  }
+  .hero .btn-hero-socmed {
+    display: flex;
+  }
+  .btn-hero-socmed img:nth-child(1) {
+    top: -50px;
+    left: 420px;
+
+    transform: rotate(-4deg);
+    z-index: 3;
+  }
+  .btn-hero-socmed img:nth-child(2) {
+    top: 20px;
+    left: 130px;
+
+    transform: rotate(2deg);
+    z-index: 2;
+  }
+  .btn-hero-socmed img:nth-child(3) {
+    top: 90px;
+    left: -150px;
+
+    transform: rotate(-2deg);
+    z-index: 1;
+  }
+  .btn-hero-socmed img:nth-child(4) {
+    position: relative;
+    top: 160px;
+    left: -440px;
+
+    transform: rotate(4deg);
+  }
 }

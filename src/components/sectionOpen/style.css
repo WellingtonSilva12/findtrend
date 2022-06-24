@@ -33,3 +33,19 @@
 .open-new .find-image img {
   height: 7.2rem;
 }
+@media (max-width: 768px) {
+  .open-new h2 {
+    font-size: 2.8rem;
+    padding-inline: 1.4rem;
+  }
+  .open-new p {
+    font-size: 1.4rem;
+    padding-inline: 2.4rem;
+  }
+  .open-new .find-image {
+    padding: 3rem 2rem;
+  }
+  .open-new .find-image img {
+    height: 6.2rem;
+  }
+}
