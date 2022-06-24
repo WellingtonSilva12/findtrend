@@ -1,0 +1,13 @@
+.longText {
+  display: flex;
+  justify-content: center;
+}
+
+h2 {
+  font-size: 6.4rem;
+  margin-top: 10rem;
+  margin-bottom: 14rem;
+}
+span {
+  color: #adadad;
+}
